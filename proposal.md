@@ -1,15 +1,16 @@
 # Major Project Proposal
 
-I'll make a clone of the 1983 video game "Bomberman."
+NES Style 8-bit replica of the 1989 game "Friday the 13."
 
 ## Must Have's List
 
-- Moving, working sprite
-- obstacles that are able to be exploded
-- enemies
+- Working, moving sprite
+- An enemy (Jason) that can be spawned at random in different rooms
+- tasks to complete (get gas for car, find car keys, etc)
 
 ## Nice To Have List
 
-- aesthetically pleasing
-- menu screen
-- win/lose screen
+- difficulty settings
+- easter eggs
+- big environment (house, outdoors, etc)
+- multiple ways to escape
