@@ -5,7 +5,7 @@ NES Style 8-bit replica of the 1989 game "Friday the 13."
 ## Must Have's List
 
 - Working, moving sprite
-- An enemy (Jason) that can be spawned at random in different rooms
+- An enemy (Jason) that can be spawned in different rooms once you enter
 - tasks to complete (get gas for car, find car keys, etc)
 
 ## Nice To Have List
