@@ -4,7 +4,7 @@
 // -Chase
 // 10/19/2021
 //
-// Needed for game: Character & map art, Jason sprite, objects (keys, gas, battery), inventory, 
+// Needed for game: Character & map art, Jason sprite, objects (keys, gas, battery), inventory
 
 
 let x = 200;
@@ -18,7 +18,7 @@ function draw() {
   background(220);
   fill(0);
   rect(x, y, 10, 10);
-  if (x >= 400){
+  if (x >= windowWidth){
     x = 0; 
   }
   
