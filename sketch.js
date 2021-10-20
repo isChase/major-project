@@ -21,9 +21,8 @@ function draw() {
   if (x >= windowWidth){
     x = 0; 
   }
-  
 }
- 
+
 
 function keyPressed() {
   if (keyIsDown(UP_ARROW)) {
@@ -37,6 +36,5 @@ function keyPressed() {
   } 
   if (keyIsDown(RIGHT_ARROW)) {
     x += 10;
-  }
-  
+  }  
 }
