@@ -1,6 +1,6 @@
 # Major Project Proposal
 
-NES Style 8-bit replica of the 1989 game "Friday the 13."
+NES Style 8-bit replica of the 1989 game "Friday the 13th."
 
 ## Must Have's List
 
