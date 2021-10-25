@@ -4,23 +4,28 @@
 // -Chase
 // 10/19/2021
 //
-// Needed for game: Character & map art, Jason sprite, objects (keys, gas, battery), inventory
+// Needed for game: Character & map art, Jason sprite, objects: (keys, gas, battery), inventory
 
 let state = "rest";
 let img;
 
 function preload(){
-  img = loadImage("assets/pixil-frame-0 (3).png");
+  if (state === "rest"){
+    img = loadImage("assets/pixil-frame-0 (3).png");
+  }
 }
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, windowHeight, WEBGL);
   loadImage("assets/pixil-frame-0 (3).png");
   image(img, 0, 0);
 }
 
 function draw() {
   background(255);
+  rotateX(frameCount * 0.01);
+  rotateY(frameCount * 0.01);
+  box(50);
 }
 
 function findState() {
@@ -52,8 +57,4 @@ function displayRoom1() {
   // else if (state === "down"){
   //   loadImage("assets/pixil-frame-0 (x)");
   // }
-
-
 }
-
-
